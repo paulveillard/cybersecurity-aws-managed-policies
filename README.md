@@ -22,7 +22,7 @@ When you need to set the permissions for an identity in IAM, you must decide whe
 ## [Inline policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html)
 - An inline policy is a policy that's embedded in an IAM identity (a user, group, or role). That is, the policy is an inherent part of the identity. You can create a policy and embed it in an identity, either when you create the identity or later.
 
-![Inline](https://github.com/paulveillard/cybersecurity-aws-managed-policies/blob/main/img/policies-aws-managed-policies.diagram.png)
+![Inline](https://github.com/paulveillard/cybersecurity-aws-managed-policies/blob/main/img/policies-inline-policies.diagram.png)
 
 
 **[`^        back to top        ^`](#)**
