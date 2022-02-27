@@ -1,0 +1,21 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Action": [
+                        "codeguru-profiler:ConfigureAgent",
+                        "codeguru-profiler:CreateProfilingGroup",
+                        "codeguru-profiler:PostAgentProfile"
+                    ],
+                    "Resource": "*"
+                }
+            ]
+        },
+        "VersionId": "v2",
+        "IsDefaultVersion": true,
+        "CreateDate": "2021-04-02T23:21:37Z"
+    }
+}
