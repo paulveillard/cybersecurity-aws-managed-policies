@@ -1,0 +1,49 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "ComputeOptimizerFullAccess",
+                    "Effect": "Allow",
+                    "Action": [
+                        "compute-optimizer:*"
+                    ],
+                    "Resource": "*"
+                },
+                {
+                    "Sid": "AwsOrgsAccess",
+                    "Effect": "Allow",
+                    "Action": [
+                        "organizations:DescribeOrganization",
+                        "organizations:ListAccounts",
+                        "organizations:ListAWSServiceAccessForOrganization"
+                    ],
+                    "Resource": [
+                        "*"
+                    ]
+                },
+                {
+                    "Sid": "CloudWatchAccess",
+                    "Effect": "Allow",
+                    "Action": [
+                        "cloudwatch:GetMetricData"
+                    ],
+                    "Resource": "*"
+                },
+                {
+                    "Sid": "AutoScalingAccess",
+                    "Effect": "Allow",
+                    "Action": [
+                        "autoscaling:DescribeAutoScalingInstances",
+                        "autoscaling:DescribeAutoScalingGroups"
+                    ],
+                    "Resource": "*"
+                }
+            ]
+        },
+        "VersionId": "v2",
+        "IsDefaultVersion": true,
+        "CreateDate": "2021-11-29T16:04:07Z"
+    }
+}
