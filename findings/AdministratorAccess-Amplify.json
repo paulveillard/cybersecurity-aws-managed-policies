@@ -1,0 +1,246 @@
+[
+    {
+        "findingDetails": "Using the iam:PassRole action with wildcards (*) in the resource can be overly permissive because it allows iam:PassRole permissions on multiple resources. We recommend that you specify resource ARNs or add the iam:PassedToService condition key to your statement.",
+        "findingType": "SECURITY_WARNING",
+        "issueCode": "PASS_ROLE_WITH_STAR_IN_RESOURCE",
+        "learnMoreLink": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-reference-policy-checks.html#access-analyzer-reference-policy-checks-security-warning-pass-role-with-star-in-resource",
+        "locations": [
+            {
+                "path": [
+                    {
+                        "value": "Statement"
+                    },
+                    {
+                        "index": 1
+                    },
+                    {
+                        "value": "Action"
+                    },
+                    {
+                        "index": 13
+                    }
+                ],
+                "span": {
+                    "end": {
+                        "column": 1016,
+                        "line": 1,
+                        "offset": 1016
+                    },
+                    "start": {
+                        "column": 1002,
+                        "line": 1,
+                        "offset": 1002
+                    }
+                }
+            },
+            {
+                "path": [
+                    {
+                        "value": "Statement"
+                    },
+                    {
+                        "index": 1
+                    },
+                    {
+                        "value": "Resource"
+                    }
+                ],
+                "span": {
+                    "end": {
+                        "column": 5194,
+                        "line": 1,
+                        "offset": 5194
+                    },
+                    "start": {
+                        "column": 5191,
+                        "line": 1,
+                        "offset": 5191
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "findingDetails": "Using the iam:PassRole action with wildcards (*) in the resource can be overly permissive because it allows iam:PassRole permissions on multiple resources. We recommend that you specify resource ARNs or add the iam:PassedToService condition key to your statement.",
+        "findingType": "SECURITY_WARNING",
+        "issueCode": "PASS_ROLE_WITH_STAR_IN_RESOURCE",
+        "learnMoreLink": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-reference-policy-checks.html#access-analyzer-reference-policy-checks-security-warning-pass-role-with-star-in-resource",
+        "locations": [
+            {
+                "path": [
+                    {
+                        "value": "Statement"
+                    },
+                    {
+                        "index": 2
+                    },
+                    {
+                        "value": "Action"
+                    },
+                    {
+                        "index": 60
+                    }
+                ],
+                "span": {
+                    "end": {
+                        "column": 7151,
+                        "line": 1,
+                        "offset": 7151
+                    },
+                    "start": {
+                        "column": 7137,
+                        "line": 1,
+                        "offset": 7137
+                    }
+                }
+            },
+            {
+                "path": [
+                    {
+                        "value": "Statement"
+                    },
+                    {
+                        "index": 2
+                    },
+                    {
+                        "value": "Resource"
+                    }
+                ],
+                "span": {
+                    "end": {
+                        "column": 7776,
+                        "line": 1,
+                        "offset": 7776
+                    },
+                    "start": {
+                        "column": 7773,
+                        "line": 1,
+                        "offset": 7773
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "findingDetails": "Using the iam:CreateServiceLinkedRole action with wildcards (*) in the resource can allow creation of unintended service-linked roles. We recommend that you specify resource ARNs instead.",
+        "findingType": "WARNING",
+        "issueCode": "CREATE_SLR_WITH_STAR_IN_RESOURCE",
+        "learnMoreLink": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-reference-policy-checks.html#access-analyzer-reference-policy-checks-general-warning-create-slr-with-star-in-resource",
+        "locations": [
+            {
+                "path": [
+                    {
+                        "value": "Statement"
+                    },
+                    {
+                        "index": 6
+                    },
+                    {
+                        "value": "Action"
+                    },
+                    {
+                        "index": 20
+                    }
+                ],
+                "span": {
+                    "end": {
+                        "column": 9466,
+                        "line": 1,
+                        "offset": 9466
+                    },
+                    "start": {
+                        "column": 9437,
+                        "line": 1,
+                        "offset": 9437
+                    }
+                }
+            },
+            {
+                "path": [
+                    {
+                        "value": "Statement"
+                    },
+                    {
+                        "index": 6
+                    },
+                    {
+                        "value": "Resource"
+                    }
+                ],
+                "span": {
+                    "end": {
+                        "column": 10430,
+                        "line": 1,
+                        "offset": 10430
+                    },
+                    "start": {
+                        "column": 10427,
+                        "line": 1,
+                        "offset": 10427
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "findingDetails": "Using the iam:PassRole action with wildcards (*) in the resource can be overly permissive because it allows iam:PassRole permissions on multiple resources. We recommend that you specify resource ARNs or add the iam:PassedToService condition key to your statement.",
+        "findingType": "SECURITY_WARNING",
+        "issueCode": "PASS_ROLE_WITH_STAR_IN_RESOURCE",
+        "learnMoreLink": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-reference-policy-checks.html#access-analyzer-reference-policy-checks-security-warning-pass-role-with-star-in-resource",
+        "locations": [
+            {
+                "path": [
+                    {
+                        "value": "Statement"
+                    },
+                    {
+                        "index": 6
+                    },
+                    {
+                        "value": "Action"
+                    },
+                    {
+                        "index": 23
+                    }
+                ],
+                "span": {
+                    "end": {
+                        "column": 9518,
+                        "line": 1,
+                        "offset": 9518
+                    },
+                    "start": {
+                        "column": 9504,
+                        "line": 1,
+                        "offset": 9504
+                    }
+                }
+            },
+            {
+                "path": [
+                    {
+                        "value": "Statement"
+                    },
+                    {
+                        "index": 6
+                    },
+                    {
+                        "value": "Resource"
+                    }
+                ],
+                "span": {
+                    "end": {
+                        "column": 10430,
+                        "line": 1,
+                        "offset": 10430
+                    },
+                    "start": {
+                        "column": 10427,
+                        "line": 1,
+                        "offset": 10427
+                    }
+                }
+            }
+        ]
+    }
+]
