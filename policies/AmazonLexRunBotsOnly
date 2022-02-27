@@ -1,0 +1,26 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Action": [
+                        "lex:PostContent",
+                        "lex:PostText",
+                        "lex:PutSession",
+                        "lex:GetSession",
+                        "lex:DeleteSession",
+                        "lex:RecognizeText",
+                        "lex:RecognizeUtterance",
+                        "lex:StartConversation"
+                    ],
+                    "Resource": "*"
+                }
+            ]
+        },
+        "VersionId": "v3",
+        "IsDefaultVersion": true,
+        "CreateDate": "2021-08-18T00:15:48Z"
+    }
+}
