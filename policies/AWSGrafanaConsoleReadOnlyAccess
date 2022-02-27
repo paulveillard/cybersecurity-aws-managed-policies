@@ -1,0 +1,21 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "AWSGrafanaConsoleReadOnlyAccess",
+                    "Effect": "Allow",
+                    "Action": [
+                        "grafana:Describe*",
+                        "grafana:List*"
+                    ],
+                    "Resource": "*"
+                }
+            ]
+        },
+        "VersionId": "v3",
+        "IsDefaultVersion": true,
+        "CreateDate": "2022-02-15T22:30:54Z"
+    }
+}
