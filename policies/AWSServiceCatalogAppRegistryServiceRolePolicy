@@ -1,0 +1,47 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Action": "cloudformation:DescribeStacks",
+                    "Resource": "*"
+                },
+                {
+                    "Effect": "Allow",
+                    "Action": [
+                        "resource-groups:CreateGroup",
+                        "resource-groups:Tag"
+                    ],
+                    "Resource": "*",
+                    "Condition": {
+                        "StringEquals": {
+                            "aws:RequestTag/EnableAWSServiceCatalogAppRegistry": "true"
+                        }
+                    }
+                },
+                {
+                    "Effect": "Allow",
+                    "Action": [
+                        "resource-groups:DeleteGroup",
+                        "resource-groups:UpdateGroup",
+                        "resource-groups:GetGroup",
+                        "resource-groups:GetTags",
+                        "resource-groups:Tag",
+                        "resource-groups:Untag"
+                    ],
+                    "Resource": "*",
+                    "Condition": {
+                        "StringEquals": {
+                            "aws:ResourceTag/EnableAWSServiceCatalogAppRegistry": "true"
+                        }
+                    }
+                }
+            ]
+        },
+        "VersionId": "v2",
+        "IsDefaultVersion": true,
+        "CreateDate": "2021-08-11T19:49:17Z"
+    }
+}

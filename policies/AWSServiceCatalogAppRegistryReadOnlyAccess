@@ -1,0 +1,26 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Action": [
+                        "servicecatalog:GetApplication",
+                        "servicecatalog:ListApplications",
+                        "servicecatalog:GetAssociatedResource",
+                        "servicecatalog:ListAssociatedResources",
+                        "servicecatalog:ListAssociatedAttributeGroups",
+                        "servicecatalog:GetAttributeGroup",
+                        "servicecatalog:ListAttributeGroups",
+                        "servicecatalog:ListTagsForResource"
+                    ],
+                    "Resource": "*"
+                }
+            ]
+        },
+        "VersionId": "v2",
+        "IsDefaultVersion": true,
+        "CreateDate": "2021-08-24T17:03:28Z"
+    }
+}
