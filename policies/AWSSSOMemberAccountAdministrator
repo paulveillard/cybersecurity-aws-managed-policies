@@ -1,0 +1,36 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "AWSSSOMemberAccountAdministrator",
+                    "Effect": "Allow",
+                    "Action": [
+                        "ds:DescribeDirectories",
+                        "ds:AuthorizeApplication",
+                        "ds:UnauthorizeApplication",
+                        "ds:DescribeTrusts",
+                        "iam:ListPolicies",
+                        "organizations:EnableAWSServiceAccess",
+                        "organizations:DescribeOrganization",
+                        "organizations:DescribeAccount",
+                        "organizations:ListRoots",
+                        "organizations:ListAccounts",
+                        "organizations:ListAccountsForParent",
+                        "organizations:ListParents",
+                        "organizations:ListChildren",
+                        "organizations:ListOrganizationalUnitsForParent",
+                        "sso:*",
+                        "sso-directory:*",
+                        "ds:CreateAlias"
+                    ],
+                    "Resource": "*"
+                }
+            ]
+        },
+        "VersionId": "v3",
+        "IsDefaultVersion": true,
+        "CreateDate": "2021-08-04T20:13:14Z"
+    }
+}
