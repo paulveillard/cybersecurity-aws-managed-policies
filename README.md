@@ -1,1 +1,1 @@
-# cybersecurity-aws-managed-policies
+# AWS Managed IAM (Identity & Access Management) Policies
