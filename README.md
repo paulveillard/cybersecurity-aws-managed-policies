@@ -3,7 +3,7 @@
 > An ongoing & curated collection of awesome AWS Managed IAM software best practices and remediation techniques, libraries and frameworks, E-books and videos, Technical guidelines and important resources about AWS Identiy & Access Management (IAM) Policies.
 
 
-[image](https://github.com/paulveillard/cybersecurity-aws-managed-policies/blob/main/img/aws_iam.png)
+![image](https://github.com/paulveillard/cybersecurity-aws-managed-policies/blob/main/img/aws_iam.png)
 
 
 When you need to set the permissions for an identity in IAM, you must decide whether to use an AWS managed policy, a customer managed policy, or an inline policy
