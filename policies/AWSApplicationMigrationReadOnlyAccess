@@ -1,0 +1,35 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Action": [
+                        "mgn:DescribeJobLogItems",
+                        "mgn:DescribeJobs",
+                        "mgn:DescribeSourceServers",
+                        "mgn:DescribeReplicationConfigurationTemplates",
+                        "mgn:GetLaunchConfiguration",
+                        "mgn:DescribeVcenterClients",
+                        "mgn:GetReplicationConfiguration"
+                    ],
+                    "Resource": "*"
+                },
+                {
+                    "Effect": "Allow",
+                    "Action": [
+                        "ec2:DescribeInstances",
+                        "ec2:DescribeLaunchTemplateVersions",
+                        "ec2:DescribeSecurityGroups",
+                        "ec2:DescribeSubnets"
+                    ],
+                    "Resource": "*"
+                }
+            ]
+        },
+        "VersionId": "v2",
+        "IsDefaultVersion": true,
+        "CreateDate": "2021-11-08T12:54:08Z"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": {
+                "Effect": "Allow",
+                "Action": [
+                    "acm:DescribeCertificate",
+                    "acm:ListCertificates",
+                    "acm:GetCertificate",
+                    "acm:ListTagsForCertificate",
+                    "acm:GetAccountConfiguration"
+                ],
+                "Resource": "*"
+            }
+        },
+        "VersionId": "v4",
+        "IsDefaultVersion": true,
+        "CreateDate": "2021-03-15T16:25:21Z"
+    }
+}
